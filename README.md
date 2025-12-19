@@ -1,5 +1,10 @@
 # UAS Sistem Terdistribusi — Pub-Sub Log Aggregator (Docker Compose)
 
+## Link Video Youtube:
+```
+https://youtu.be/bjQ2C3tFi0k
+```
+
 Stack: **Python (FastAPI + asyncio)** + **Postgres**. Dedup kuat via **UNIQUE(topic,event_id)**, concurrency control via **SELECT … FOR UPDATE SKIP LOCKED**.
 
 ## Jalankan
